@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-l)r)ol#%pwz=$s1kt7l^7dpkw%=n5^-1i(i_7g1j+bl*9$_44e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'learning-logs-six.vercel.app',
