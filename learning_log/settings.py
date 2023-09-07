@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-l)r)ol#%pwz=$s1kt7l^7dpkw%=n5^-1i(i_7g1j+bl*9$_44e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'learning-logs-six.vercel.app',
+    'learning-logs-dkbosei00.vercel.app',
+    'learning-logs-git-master-dkbosei00.vercel.app'
+    ]
 
 
 # Application definition
